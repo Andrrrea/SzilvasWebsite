@@ -560,7 +560,7 @@ li {
 
 .text {
   color: white;
-  font-size: 18px;
+  /* font-size: 18px; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -583,7 +583,7 @@ li {
 
 .permanentoverlaytext {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   position: absolute;
   top: 5%;
