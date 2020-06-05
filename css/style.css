@@ -556,7 +556,7 @@ li {
 .img-container:hover .overlay {
   opacity: 1;
 }
-
+/* Same as above for mobile */
 .img-container:active .overlay {
   opacity: 1;
 }
