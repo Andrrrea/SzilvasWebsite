@@ -553,7 +553,7 @@ li {
   background-color: rgba(60, 122, 137, 0.8);
 }
 
-.img-container:hover, .img-container:active .overlay {
+.img-container:active .overlay {
   opacity: 1;
 }
 
