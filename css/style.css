@@ -586,7 +586,7 @@ li {
   color: white;
   font-size: 18px;
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
