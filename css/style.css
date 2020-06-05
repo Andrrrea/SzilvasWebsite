@@ -585,6 +585,7 @@ li {
 .permanentoverlaytext {
   color: white;
   font-size: 18px;
+  font-weight: bold;
   position: absolute;
   top: 5%;
   left: 50%;
