@@ -25,11 +25,12 @@
 </head>
 
 <body>
+  <div data-spy="scroll" data-target="#my-nav" data-offset="0"></div>
   <!--header-->
   <header id="header">
 
     <!--nav-->
-    <nav class="nav navbar-default navbar-fixed-top">
+    <nav id="my-nav" class="nav navbar-default navbar-fixed-top">
       <div class="container">
         <div class="col-md-12">
           <div class="navbar-header">
@@ -37,24 +38,24 @@
               aria-expanded="false" aria-controls="navbar">
               <span class="fa fa-bars"></span>
             </button>
-            <a href="index.html" class="navbar-brand">Logo</a>
+            <a href="#header" class="navbar-brand">Logo</a>
           </div>
           <div class="collapse navbar-collapse navbar-right" id="mynavbar">
             <ul class="nav navbar-nav">
-              <li><a href="#header">Team</a></li>
-              <li><a href="#feature">Leistungen</a></li>
-              <li><a href="#portfolio">Beratung</a></li>
-              <li><a href="#contact">Projekte</a></li>
-              <li><a href="#contact">Kontakt</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#leistungen">Leistungen</a></li>
+              <li><a href="#beratung">Beratung</a></li>
+              <li><a href="#projekte">Projekte</a></li>
+              <li><a href="#kontakt">Kontakt</a></li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
     <!--/ nav-->
-
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
     <!-- Header image carousel -->
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    
       <div class="header-overlay">
         <div class="hero">
           <hgroup>
@@ -73,31 +74,31 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
-  
-  
+
+
       <!-- Carousel items -->
       <div class="carousel-inner">
-  
+
         <!-- Slide 1 : Active -->
         <div class="item active">
           <img src="img/banner1.jpg" alt="">
         </div><!-- /Slide1 -->
-  
+
         <!-- Slide 2 -->
         <div class="item ">
           <img src="img/banner2.jpg" alt="">
         </div><!-- /Slide2 -->
-  
+
         <!-- Slide 3 -->
         <div class="item ">
           <img src="img/banner3.png" alt="">
         </div><!-- /Slide3 -->
-  
+
         <!-- Slide 4 -->
         <div class="item ">
           <img src="img/banner4.png" alt="">
         </div><!-- /Slide4 -->
-  
+
       </div><!-- /.carousel-inner -->
 
     </div>
@@ -106,9 +107,9 @@
   </header>
   <!--/ header-->
 
-
   <!-- Team -->
-  <section id="Team">
+ 
+  <section id="team">
     <div class="container">
 
       <div class="row text-center">
@@ -165,10 +166,11 @@
     </div>
     </div>
   </section>
-  <!---->
+
+  <!-- End Team -->
 
   <!-- Leistungen  -->
-  <section class="bg-white">
+  <section class="bg-white" id="leistungen">
     <div class="container">
 
       <div class="row">
@@ -362,7 +364,7 @@
   <!-- End Leistungen -->
 
   <!-- Beratung -->
-  <section class="bg-white">
+  <section class="bg-white" id="beratung">
     <div class="container">
       <div class="row top-spacing">
         <div class="col-md-7">
@@ -409,7 +411,7 @@
 
   <!-- Projekte -->
   <section>
-    <div class="container">
+    <div class="container" id="projekte">
       <div class="row top-spacing">
         <div class="col-md-7">
           <h1 class="title-beratung">Rehasport</h1>
@@ -555,14 +557,28 @@
   </footer>
   <!-- End Footer -->
 
-<script>
-    $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 3000
-    })
-  });
-</script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel({
+        interval: 3000
+      });
 
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000, function () {
+            window.location.hash = hash;
+          });
+        }
+      });
+
+
+  </script>
+
+</div>
 </body>
 
 </html>

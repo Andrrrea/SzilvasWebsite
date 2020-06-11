@@ -6,6 +6,7 @@ body {
   font-family: 'Bookman Old Style', arial;
   overflow-x: hidden;
   background-color: #e7eced;
+  position: relative;
 }
 section{
   padding: 5% 0 5% 0;
@@ -60,7 +61,8 @@ section{
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #FFD34E;
+  color: white;
+  font-weight: bold;
 }
 .navbar-fixed-top {
   padding: 15px 0;
