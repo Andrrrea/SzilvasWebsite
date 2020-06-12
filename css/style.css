@@ -36,6 +36,13 @@ section{
   margin-bottom: 0px;
   font-weight: bold;
 }
+.text{
+  color:white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+}
 
 /* BUTTON */
 .btn-blue { 
@@ -371,6 +378,20 @@ li {
   font-size: 1.5vw;
 }
 
+/* KONTAKT */
+.kontakt-title{
+  color: #2e4756;
+  font-weight: bold;
+}
+.form-control{
+  background-color: #3c7a89;
+  color: white;
+}
+::placeholder {
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+
 /** ADDED BY SILLY **/
 
 .permantoverlay {
@@ -397,16 +418,3 @@ li {
   width: 100%;
 }
 
-/* KONTAKT */
-.kontakt-title{
-  color: #2e4756;
-  font-weight: bold;
-}
-.form-control{
-  background-color: #3c7a89;
-  color: white;
-}
-::placeholder {
-  color: white !important;
-  opacity: 1; /* Firefox */
-}
