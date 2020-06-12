@@ -17,6 +17,10 @@ section{
 .top-spacing{
   margin-top: 5%;
 }
+.extra-padding{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 .text-blue{
   color: #3c7a89;
   font-size: 18px;
@@ -26,7 +30,59 @@ section{
   font-size: 18px;
   margin-bottom: 0px;
 }
+.text-darkblue-bold{
+  color: #2e4756;
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
 
+/* BUTTON */
+.btn-blue { 
+  color: #FFFFFF; 
+  background-color: #3C7A89; 
+  border-color: #3C7A89; 
+} 
+ 
+.btn-blue:hover, 
+.btn-blue:focus, 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  color: #3C7A89; 
+  background-color: #FFFFFF; 
+  border-color: #3C7A89; 
+} 
+ 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  background-image: none; 
+} 
+ 
+.btn-blue.disabled, 
+.btn-blue[disabled], 
+fieldset[disabled] .btn-blue, 
+.btn-blue.disabled:hover, 
+.btn-blue[disabled]:hover, 
+fieldset[disabled] .btn-blue:hover, 
+.btn-blue.disabled:focus, 
+.btn-blue[disabled]:focus, 
+fieldset[disabled] .btn-blue:focus, 
+.btn-blue.disabled:active, 
+.btn-blue[disabled]:active, 
+fieldset[disabled] .btn-blue:active, 
+.btn-blue.disabled.active, 
+.btn-blue[disabled].active, 
+fieldset[disabled] .btn-blue.active { 
+  background-color: #3C7A89; 
+  border-color: #3C7A89; 
+} 
+ 
+.btn-blue .badge { 
+  color: #3C7A89; 
+  background-color: #FFFFFF; 
+}
 
 /* NAVBAR */
 
@@ -49,9 +105,10 @@ section{
   letter-spacing: 2px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #FFD34E;
+  color: white;
   text-transform: uppercase;
-	background-color: rgba(46, 71, 86);
+  font-weight: bold;
+  background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
   color: #fff;
@@ -63,6 +120,7 @@ section{
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .navbar-fixed-top {
   padding: 15px 0;
@@ -337,4 +395,18 @@ li {
   text-align: center;
   vertical-align: top;
   width: 100%;
+}
+
+/* KONTAKT */
+.kontakt-title{
+  color: #2e4756;
+  font-weight: bold;
+}
+.form-control{
+  background-color: #3c7a89;
+  color: white;
+}
+::placeholder {
+  color: white !important;
+  opacity: 1; /* Firefox */
 }
