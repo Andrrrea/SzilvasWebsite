@@ -43,7 +43,12 @@ section{
   left: 0;
   font-size: 16px;
 }
-
+.round-img{
+  border-radius:35px;
+}
+.circle-img{
+  border-radius: 50%;
+}
 /* BUTTON */
 .btn-blue { 
   color: #FFFFFF; 
@@ -170,7 +175,7 @@ fieldset[disabled] .btn-blue.active {
 }
 .hero h1 {
   font-size: 7vw;    
-  font-weight: bold;
+  font-weight: 500;
   color: #fff;
   letter-spacing: 4px;
   opacity: 1;
@@ -181,7 +186,7 @@ fieldset[disabled] .btn-blue.active {
 }
 .hero h2 {
   font-size: 4vw;
-  font-weight: bold;
+  font-weight: 500;
   color: #fff;
   letter-spacing: 4px;
   opacity: 1;
@@ -189,8 +194,8 @@ fieldset[disabled] .btn-blue.active {
   text-transform: none;
 }
 .hero h3 {
-  font-size: 3vw;
-  font-weight: bold;
+  font-size: 2.5vw;
+  font-weight: 500;
   letter-spacing: 4px;
   color: #fff;
   opacity: 1;
@@ -202,8 +207,7 @@ fieldset[disabled] .btn-blue.active {
   width: 100%;
   height: 100%;
   z-index: 2;
-  background-color: #000000;
-  opacity: .7;
+  background-color: rgba(0,0,0,.7)
 }
 
 /* Carousel Fading slide */
