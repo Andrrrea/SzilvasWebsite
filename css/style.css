@@ -49,6 +49,11 @@ section{
 .circle-img{
   border-radius: 50%;
 }
+.fill{
+    min-height: 100%;
+    height: 100%;
+}
+
 /* BUTTON */
 .btn-blue { 
   color: #FFFFFF; 
@@ -93,13 +98,27 @@ fieldset[disabled] .btn-blue.active {
  
 .btn-blue .badge { 
   color: #3C7A89; 
-  background-color: #FFFFFF; 
+  background-color: #FFFFFF;
+  border: none;
 }
 
 /* NAVBAR */
+.navbar-fixed-top{
+  padding-top: 5px !important;
+  padding-bottom:5px !important;
+}
 
 .navbar-default {
   background-color: rgba(46, 71, 86);
+  margin: 0px;
+  border-color: rgba(46, 71, 86);
+  border-radius: 0px;
+}
+.navbar-right{
+  margin-top:10px;
+}
+.logo{
+  padding-left: 10px !important;
 }
 .nav>li>a {
   padding: 0px;

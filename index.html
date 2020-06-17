@@ -22,22 +22,24 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-  <!--header-->
-  <header id="header">
 
-    <!--nav-->
-    <nav class="nav navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="col-md-12">
+  <!--header-->
+  <header id="header"> 
+    <!-- Navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
-              aria-expanded="false" aria-controls="navbar">
-              <span class="fa fa-bars"></span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
-            <li><a href="#header" class="navbar-brand">Logo</a></li>
+            <a class="navbar-brand logo" href="#header"><img width="60px" src="img/Logo_Simon.jpg" alt="Logo">
+            </a>
           </div>
-          <div class="collapse navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
+          <div id="navbar5" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
               <li><a href="#header"></a></li>
               <li><a href="#team">Team</a></li>
               <li><a href="#leistungen">Leistungen</a></li>
@@ -47,11 +49,12 @@
             </ul>
           </div>
         </div>
-      </div>
-    </nav>
-    <!--/ nav-->
+      </nav>
+      <!-- End Navbar -->
+ 
+    <!-- Header image carousel -->
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-      <!-- Header image carousel -->
+      
 
       <div class="header-overlay">
         <div class="hero">
@@ -79,27 +82,26 @@
         <!-- Slide 1 : Active -->
         <div class="item active">
           <img src="img/banner1.jpg" alt="">
-        </div><!-- /Slide1 -->
+        </div>
 
         <!-- Slide 2 -->
         <div class="item ">
           <img src="img/banner2.jpg" alt="">
-        </div><!-- /Slide2 -->
+        </div>
 
         <!-- Slide 3 -->
         <div class="item ">
           <img src="img/banner3.png" alt="">
-        </div><!-- /Slide3 -->
+        </div>
 
         <!-- Slide 4 -->
         <div class="item ">
           <img src="img/banner4.png" alt="">
-        </div><!-- /Slide4 -->
+        </div>
 
-      </div><!-- /.carousel-inner -->
+      </div>
 
     </div>
-    <!-- End Header image carousel -->
 
   </header>
   <!--/ header-->
@@ -552,8 +554,8 @@
       </div>
     </div>
     <div class="footer-copyright text-center py-3">Copyright: © 2020 Andrea Engel <br>
-      <a href="#">Impressum </a>
-      <p style="display:inline-block"> - </p><a href="#"> RGB </a>
+      <a href="impressum.html">Impressum </a>
+      <p style="display:inline-block"> - </p><a href="AGB.html"> AGB</a>
       <p style="display:inline-block"> - </p><a href="#"> Somethingelse</a>
     </div>
   </footer>
