@@ -23,6 +23,14 @@
 
 <body data-spy="scroll" data-target=".navbar">
 
+  <!-- Cookie Banner -->
+  <div id="cookieConsent">
+    <div id="closeCookieConsent">x</div>
+    Diese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus. <a
+      href="datenschutz.html" target="_blank">Mehr dazu</a>.
+    <a class="cookieConsentOK">Einverstanden</a>
+  </div>
+
   <!--header-->
   <header id="header">
     <!-- Navbar -->
@@ -527,11 +535,20 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <!-- Custom js -->
   <script src="js/effects.js"></script>
-
   <!-- End JS Files -->
 
-</body>
+  <!-- Cookie Banner -->
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        $("#cookieConsent").fadeIn(200);
+      }, 2000);
+      $("#closeCookieConsent, .cookieConsentOK").click(function () {
+        $("#cookieConsent").fadeOut(200);
+      });
+    }); 
+  </script>
 
+</body>
 </html>
