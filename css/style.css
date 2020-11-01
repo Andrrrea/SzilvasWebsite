@@ -3,7 +3,7 @@
 
 body {
   line-height: 1.5;
-  font-family: 'Bookman Old Style', arial;
+  font-family: 'Bookman Old Style', arial !important; 
   overflow-x: hidden;
   background-color: #e7eced;
   position: relative;
@@ -11,21 +11,80 @@ body {
 section{
   padding: 5% 0 5% 0;
 }
+
 .bg-white{
   background-color: white;
 }
+
 .top-spacing{
   margin-top: 5%;
 }
+
+
 .extra-padding{
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.text-blue{
+
+.round-img{
+  border-radius:35px;
+}
+.circle-img{
+  border-radius: 50%;
+}
+.fill{
+    min-height: 100%;
+    height: 100%;
+}
+
+/* Überschriften */
+.header-headline h1 {
+  font-size: 7vw;    
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding: 2% 0px;
+  margin-bottom: 0px;
+  padding-bottom: 1%;
+}
+.header-headline h2 {
+  font-size: 4vw;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 4px;
+  opacity: 1;
+  margin-top: 15%;
+  text-transform: none;
+}
+.header-headline h3 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: #fff;
+  opacity: 1;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.headline-darkblue{
+  font-weight: bold;
+  color: #2e4756;
+}
+
+.headline-lightblue{
+  font-weight: bold;
+  color: #3c7a89;
+  margin-top: 0px;
+}
+
+.text-lightblue{
   color: #3c7a89;
   font-size: 18px;
 }
-.text-dark-blue{
+
+.text-darkblue{
   color: #2e4756;
   font-size: 18px;
   margin-bottom: 0px;
@@ -43,16 +102,7 @@ section{
   left: 0;
   font-size: 16px;
 }
-.round-img{
-  border-radius:35px;
-}
-.circle-img{
-  border-radius: 50%;
-}
-.fill{
-    min-height: 100%;
-    height: 100%;
-}
+
 
 /* BUTTON */
 .btn-blue { 
@@ -192,35 +242,7 @@ fieldset[disabled] .btn-blue.active {
          -o-transform: translate3d(-50%,-50%,0);
             transform: translate3d(-50%,-50%,0);
 }
-.hero h1 {
-  font-size: 7vw;    
-  font-weight: 500;
-  color: #fff;
-  letter-spacing: 4px;
-  opacity: 1;
-  text-transform: uppercase;
-  padding: 2% 0px;
-  margin-bottom: 0px;
-  padding-bottom: 1%;
-}
-.hero h2 {
-  font-size: 4vw;
-  font-weight: 500;
-  color: #fff;
-  letter-spacing: 4px;
-  opacity: 1;
-  margin-top: 15%;
-  text-transform: none;
-}
-.hero h3 {
-  font-size: 2.5vw;
-  font-weight: 500;
-  letter-spacing: 4px;
-  color: #fff;
-  opacity: 1;
-  text-transform: uppercase;
-  margin: 0px;
-}
+
 .header-overlay {
   position: absolute;
   width: 100%;
@@ -274,8 +296,6 @@ fieldset[disabled] .btn-blue.active {
               transform: translate3d(0, 0, 0);
     }
 }
-
-
 
 
 /* Carousel Control custom */
@@ -332,19 +352,6 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
   background: #fff;
   margin: 0 3px;
   }
-
-
-/** TEAM **/
-
-.name{
-  font-weight: bold;
-  color: #2e4756;
-}
-.job{
-  font-weight: bold;
-  color: #3c7a89;
-  margin-top: 0px;
-}
 
 /** LEISTUGNEN **/
 
@@ -423,8 +430,8 @@ li {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
 }
 .permanentoverlaytext {
   color: white;
@@ -440,4 +447,3 @@ li {
   vertical-align: top;
   width: 100%;
 }
-
