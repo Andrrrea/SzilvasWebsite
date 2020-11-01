@@ -1,6 +1,10 @@
 
 /* GESAMTE SEITE*/
 
+h1, h2, h3, p, a, li {
+  font-family: 'Libre Baskerville', serif;
+}
+
 body {
   line-height: 1.5;
   font-family: 'Libre Baskerville', serif;
