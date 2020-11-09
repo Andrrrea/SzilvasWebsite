@@ -494,3 +494,15 @@ li {
   vertical-align: top;
   width: 100%;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 768px) {
+  .carousel .carousel-inner .item img{
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
