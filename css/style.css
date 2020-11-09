@@ -500,7 +500,7 @@ li {
   .carousel .carousel-inner .item img{
     height: 100%;
     width: auto;
-    background-size: cover;
+    background-size: auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
