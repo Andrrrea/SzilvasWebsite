@@ -279,8 +279,6 @@ fieldset[disabled] .btn-blue.active {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  max-width: 100%;
-  height: auto;
 }
 .hero {
   position: absolute;
