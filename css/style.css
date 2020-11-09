@@ -499,8 +499,8 @@ li {
 @media only screen and (max-width: 768px) {
   .carousel .carousel-inner .item img{
     height: 100%;
-    width: auto;
-    background-size: auto;
+    width: 100vw;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
