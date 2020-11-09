@@ -274,8 +274,8 @@ fieldset[disabled] .btn-blue.active {
 /* HEADER CAROUSEL */
 
 .carousel .carousel-inner .item img{
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
