@@ -498,7 +498,8 @@ li {
 /* RESPONSIVENESS */
 @media only screen and (max-width: 768px) {
   .carousel .carousel-inner .item img{
-    background-size: 200px 400px;
+    height: 100%;
+    object-fit: cover;
     
   }
 }
