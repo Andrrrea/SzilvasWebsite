@@ -499,7 +499,7 @@ li {
 @media only screen and (max-width: 768px) {
   .carousel .carousel-inner .item img{
     object-fit: cover;
-    height: 100vw;
+    min-height: 100vw;
     width: auto;
   }
 }
