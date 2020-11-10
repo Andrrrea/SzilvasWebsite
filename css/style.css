@@ -233,7 +233,7 @@ fieldset[disabled] .btn-blue.active {
 }
 .navbar-default .navbar-brand {
   color: #fff;
-  font-size: 34px;
+  font-size: 1.2 vw;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -247,8 +247,7 @@ fieldset[disabled] .btn-blue.active {
 .navbar-default .navbar-nav>li>a {
   color: #fff;
   padding: 10px 20px;
-  font-size: 18px;
-  font-size: 1.4vw;;
+  font-size: 1.6 vw;;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
