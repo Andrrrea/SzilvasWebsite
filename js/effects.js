@@ -21,7 +21,9 @@ $(document).ready(function(){
 
     $(navbutton).on('click', function(event) {
       if($(navbar).css('display') == 'none'){
-        $(navbar).css("display","inline");
+        $(navbar).css('display','inline');
+      } else{
+        $(navbar).css('display','none');
       }
     });
   });
