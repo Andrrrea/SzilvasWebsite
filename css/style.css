@@ -273,8 +273,9 @@ fieldset[disabled] .btn-blue.active {
 /* HEADER CAROUSEL */
 
 .carousel .carousel-inner .item img{
-  height: auto;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -493,3 +494,14 @@ li {
   vertical-align: top;
   width: 100%;
 }
+
+/*MEDIA QUERIES
+
+@media (min-width: 800px) {
+  .carousel .carousel-inner .item img{
+    height: 150% !important;
+    width: auto;
+    object-fit:cover;
+  }
+}
+*/
