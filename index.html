@@ -192,10 +192,10 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-3 top-spacing">
-          <a href="#" ontouchend="this.onclick=fix"><div class="img-container">
+        <div class="col-md-3 top-spacing" onclick="closeFunction()">
+          <div class="img-container">
             <img alt="picture" src="img/img4.png" width="100%" />
-            <div class="overlay text-center">
+            <div id="close" class="overlay text-center">
               <p class="text">Mobilisation und Stabilisation von kindlichen Fußfehlentwicklungen wie Klumpfuß,
                 Sichelfuß, Hackenfuß oder Knickfuß
               </p>
@@ -203,7 +203,7 @@
             <!--<div class="permanentoverlay">
               <h3 class="permanentoverlaytext">Fußfehlformen</h3>
             </div> -->
-          </div> </a>
+          </div>
         </div>
         <div class="col-md-3 top-spacing">
           <div class="img-container">
@@ -563,17 +563,11 @@
     }); 
   </script>
 
-<!-- no hover on mobile -->
 <script>
-    function fix()
-    {
-        var el = this;
-        var par = el.parentNode;
-        var next = el.nextSibling;
-        par.removeChild(el);
-        setTimeout(function() {par.insertBefore(el, next);}, 0)
-    }
-</script>
+  function closeFunction() {
+    document.getElementById("close").style.display ="none";
+  }
+  </script>
 
 </body>
 </html>
