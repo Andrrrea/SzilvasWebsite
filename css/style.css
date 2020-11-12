@@ -4,6 +4,9 @@
 h1, h2, h3, p, a, li {
   font-family: 'Libre Baskerville', serif;
 }
+.no-top-padding{
+  padding-top: 0;
+}
 
 /* Cookies Banner */
 #cookieConsent {
