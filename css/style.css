@@ -409,8 +409,8 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
 .title-leistungen{
   text-transform: uppercase;
   color: #3c7a89;
-  font-weight: 900;
-  font-size: 3em;
+  font-size: 3em;    
+  font-weight: 500;
 }
 .subtitle-leistungen{
   color: #2e4756;
