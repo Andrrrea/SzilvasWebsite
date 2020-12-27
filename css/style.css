@@ -480,7 +480,7 @@ li {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: rgba(60, 122, 137, 0.8);
+  background-color: rgba(60, 122, 137, 1);
 }
 .img-container:hover .overlay {
   opacity: 1;
