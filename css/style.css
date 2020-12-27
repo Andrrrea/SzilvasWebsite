@@ -511,6 +511,7 @@ li {
 /** ADDED BY SILLY **/
 
 .permantoverlay {
+  color: white;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -518,7 +519,6 @@ li {
   right: 0;
   height: 90%;
   width: 90%;
-  opacity: 1;
 }
 .permanentoverlaytext {
   color: white;
