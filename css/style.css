@@ -511,6 +511,7 @@ li {
 /** ADDED BY SILLY **/
 
 .permantoverlay {
+  font-weight: bold;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -522,8 +523,8 @@ li {
 .permanentoverlaytext {
   color: white;
   font-size: 20px;
-  /* font-weight: bold; */
-  font-weight: 900;
+  font-weight: bold;
+  /* font-weight: 900; */
   position: absolute;
   top: 5%;
   left: 50%;
