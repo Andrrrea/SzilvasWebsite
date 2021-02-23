@@ -143,9 +143,9 @@ section {
   font-size: 18px;
 }
 
-.text-darkblue {
+.text-dark-blue {
   color: #2e4756;
-  font-size: 18px;
+  font-size: 120%;
   margin-bottom: 0px;
 }
 .text-darkblue-bold {
@@ -159,7 +159,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 16px;
+  font-size: 120%;
 }
 
 /* BUTTON */
